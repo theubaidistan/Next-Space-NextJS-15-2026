@@ -2,7 +2,7 @@
 
 ![Next Space Banner](https://i.vimeocdn.com/video/1952773815-e900accb239939e35effa377aaeea07b08fcf5c2d2bd5bef4054b42269e0ef20-d?f=webp)
 
-[![Next.js](https://img.shields.io/badge/Next.js-14.0-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![NextAuth.js](https://img.shields.io/badge/NextAuth.js-Latest-blueviolet?style=for-the-badge&logo=next.js&logoColor=white)](https://next-auth.js.org/)
 [![Prisma](https://img.shields.io/badge/Prisma-5.0-2D3748?style=for-the-badge&logo=prisma&logoColor=white)](https://www.prisma.io/)
