@@ -1,0 +1,23 @@
+/* About.module.css */
+
+.container {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 200px;
+  text-align: center;
+  background-color: #f9fafb; /* light gray background */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.h1 {
+  font-size: 2.2rem;
+  color: #1f2937; /* dark gray */
+  margin-bottom: 15px;
+}
+
+.p {
+  font-size: 1.1rem;
+  color: #4b5563; /* medium gray */
+  line-height: 1.6;
+}

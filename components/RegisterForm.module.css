@@ -1,0 +1,60 @@
+/* RegisterForm.module.css */
+.formContainer {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  max-width: 400px;
+  margin: auto;
+}
+
+.formTitle {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.inputField {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.fileInput {
+  margin-bottom: 1rem;
+}
+
+.button {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: none;
+  background-color: #1d4ed8;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0f3dbf;
+}
+
+.errorText {
+  color: red;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.imagePreview {
+  margin-top: 10px;
+  display: block;
+  width: 100px;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}

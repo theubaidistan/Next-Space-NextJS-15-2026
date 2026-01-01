@@ -1,0 +1,81 @@
+/* ProfileForm.module.css */
+
+/* Container */
+.formContainer {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f9fafb;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Labels */
+.label {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+/* Inputs */
+.inputField {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.inputField:focus {
+  outline: none;
+  border-color: #1d4ed8;
+}
+
+/* Textarea */
+.textareaField {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  resize: vertical;
+  min-height: 80px;
+}
+
+.textareaField:focus {
+  outline: none;
+  border-color: #1d4ed8;
+}
+
+/* Button */
+.submitButton {
+  padding: 12px;
+  background-color: #1d4ed8;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.submitButton:hover:not(:disabled) {
+  background-color: #1e40af;
+}
+
+.submitButton:disabled {
+  background-color: #93c5fd;
+  cursor: not-allowed;
+}
+
+/* Uploading / Error text */
+.infoText {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.errorText {
+  color: red;
+  font-size: 0.9rem;
+  text-align: center;
+}

@@ -1,0 +1,41 @@
+/* All styles must use classes, not plain element selectors */
+.container {
+  padding: 20px;
+}
+
+.createButton {
+  margin-bottom: 20px;
+  padding: 8px 16px;
+  background-color: #1d4ed8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.createButton:hover {
+  background-color: #2563eb;
+}
+
+.postList {
+  list-style: none;
+  padding-left: 0;
+}
+
+.postItem {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.postLink {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #1d4ed8;
+}
+
+.postLink:hover {
+  text-decoration: underline;
+}
